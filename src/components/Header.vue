@@ -8,7 +8,7 @@
         class="hover:underline me-6 hover:text-amber-700 visible"
       >
         <img
-          src="./images/varadifi.png"
+          src="../images/varadifi.png"
           alt="Logo"
           class="w-8 h-8 object-cover"
         />
