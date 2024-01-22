@@ -1,22 +1,4 @@
-<script>
-tailwind.config = {
-  theme: {
-    letterSpacing: {
-      tightest: "-.075em",
-      tighter: "-.05em",
-      tight: "-.025em",
-      normal: "0",
-      wide: ".025em",
-      wider: ".25em",
-      widest: ".50em",
-    },
-  },
-};
-</script>
-<script
-  src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@2.x.x/dist/alpine.min.js"
-  defer
-></script>
+<script></script>
 
 <template>
   <div class="flex justify-between bg-amber-100 p-2 items-center">
@@ -26,7 +8,7 @@ tailwind.config = {
         class="hover:underline me-6 hover:text-amber-700 visible"
       >
         <img
-          src="images/varadifi.png"
+          src="./images/varadifi.png"
           alt="Logo"
           class="w-8 h-8 object-cover"
         />

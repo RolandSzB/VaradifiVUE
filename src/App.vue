@@ -1,5 +1,13 @@
-<script setup></script>
+<script setup>
+import Header from "./components/Header.vue";
+</script>
 
-<template></template>
+<template>
+  <Header></Header>
+</template>
 
-<style scoped></style>
+<style>
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+</style>
