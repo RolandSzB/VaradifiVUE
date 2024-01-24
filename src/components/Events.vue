@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <div
-    class="flex flex-col text-center justify-center bg-amber-100 xl:px-36 pb-20"
+    class="flex flex-col text-center justify-center bg-amber-100 xl:px-36 pb-4"
   >
     <div
       class="flex flex-col xl:flex-row justify-center items-center text-5xl font-bold my-14"
