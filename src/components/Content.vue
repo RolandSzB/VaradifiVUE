@@ -8,7 +8,7 @@
     <!-- carousel -->
     <div class="flex justify-center items-center">
       <div
-        class="carousel relative shadow-2xl bg-white w-full h-40 xl:w-auto xl:h-auto"
+        class="carousel relative shadow-2xl bg-white w-full h-full xl:w-auto xl:h-auto"
       >
         <div class="carousel-inner relative overflow-hidden w-full h-full">
           <!--Slide 1-->
@@ -105,7 +105,7 @@
             ><i class="bi bi-chevron-right"></i
           ></label>
 
-          <!-- Add additional indicators for each slide-->
+          <!-- Indicators for each slide-->
           <ol class="carousel-indicators">
             <li class="inline-block mr-3">
               <label

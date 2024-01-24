@@ -41,22 +41,18 @@
           @click.away="open = false"
           class="absolute right-0 mt-2 bg-amber-100 border border-gray-300 rounded shadow-lg py-2 w-40 z-10"
         >
-          <a href="#" class="block px-4 py-2 text-gray-800 hover:text-amber-700"
-            ><a
-              href="events.html"
-              class="hover:underline me-6 hover:text-amber-700 visible"
-            >
-              <p>Események</p>
-            </a></a
+          <a
+            href="events.html"
+            class="block px-4 py-2 text-gray-800 hover:text-amber-700"
           >
-          <a href="#" class="block px-4 py-2 text-gray-800 hover:text-amber-700"
-            ><a
-              href="about.html"
-              class="hover:underline me-6 hover:text-amber-700 visible"
-            >
-              <p>Rólunk</p>
-            </a></a
+            Események
+          </a>
+          <a
+            href="about.html"
+            class="block px-4 py-2 text-gray-800 hover:text-amber-700"
           >
+            Rólunk
+          </a>
         </div>
       </div>
     </div>

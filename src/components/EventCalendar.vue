@@ -6,7 +6,7 @@ defineProps({
 
 <template>
   <div
-    class="flex flex-col text-center justify-center bg-amber-100 xl:px-36 pb-20"
+    class="flex flex-col text-center justify-center bg-amber-100 ps-10 xl:px-36 pb-4"
   >
     <div class="flex justify-start">
       <div
