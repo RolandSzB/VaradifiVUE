@@ -14,8 +14,6 @@ defineProps({
       allowtransparency="true"
     ></iframe>
   </div>
-
-  <!-- Instagram feed -->
 </template>
 <style>
 @tailwind base;
