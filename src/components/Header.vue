@@ -27,34 +27,6 @@
       >
         <p>Rólunk</p>
       </a>
-      <!-- Dropdown menu -->
-      <div
-        x-data="{ open: false }"
-        class="relative inline-block text-center visible xl:invisible"
-      >
-        <button @click="open = !open" class="text-3xl">
-          <i class="bi bi-list hover:text-amber-700"></i>
-        </button>
-
-        <div
-          x-show="open"
-          @click.away="open = false"
-          class="absolute right-0 mt-2 bg-amber-100 border border-gray-300 rounded shadow-lg py-2 w-40 z-10"
-        >
-          <a
-            href="events.html"
-            class="block px-4 py-2 text-gray-800 hover:text-amber-700"
-          >
-            Események
-          </a>
-          <a
-            href="about.html"
-            class="block px-4 py-2 text-gray-800 hover:text-amber-700"
-          >
-            Rólunk
-          </a>
-        </div>
-      </div>
     </div>
   </div>
 </template>
