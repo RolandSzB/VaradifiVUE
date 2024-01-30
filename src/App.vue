@@ -20,7 +20,11 @@ import postLink from "./assets/postLink.json";
   <Shirts></Shirts>
   <Groups></Groups>
   <Content></Content>
-  <InstaFeed v-for="post in postLink" :details="post"></InstaFeed>
+  <div
+    class="flex flex-col xl:flex-row bg-amber-100 px-8 xl:px-28 pb-20 justify-center h-full"
+  >
+    <InstaFeed v-for="post in postLink" :details="post"></InstaFeed>
+  </div>
   <About></About>
 </template>
 

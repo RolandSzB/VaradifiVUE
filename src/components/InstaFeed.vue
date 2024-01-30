@@ -4,19 +4,15 @@ defineProps({
 });
 </script>
 <template>
-  <div
-    class="flex flex-col xl:flex-row bg-amber-100 px-8 xl:px-28 pb-20 justify-center"
-  >
-    <div class="p-5">
-      <iframe
-        src="{{details.link}}/embed/"
-        width="400"
-        height="480"
-        frameborder="0"
-        scrolling="no"
-        allowtransparency="true"
-      ></iframe>
-    </div>
+  <div class="p-5 w-full">
+    <iframe
+      :src="details.link"
+      width="400"
+      height="480"
+      frameborder="0"
+      scrolling="no"
+      allowtransparency="true"
+    ></iframe>
   </div>
 
   <!-- Instagram feed -->
