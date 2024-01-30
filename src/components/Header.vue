@@ -27,6 +27,32 @@
       >
         <p>Rólunk</p>
       </a>
+
+      <button
+        data-dropdown-toggle="dropdown"
+        type="button"
+        class="text-3xl visible xl:hidden"
+      >
+        <i class="bi bi-list hover:text-amber-700"></i>
+      </button>
+
+      <!-- Dropdown menu -->
+      <div
+        id="dropdown"
+        class="z-10 hidden bg-amber-100 divide-y divide-gray-100 rounded-lg shadow w-44"
+      >
+        <ul
+          class="py-2 text-sm text-black"
+          aria-labelledby="dropdownDefaultButton"
+        >
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-amber-200">Események</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-amber-200">Rólunk</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
