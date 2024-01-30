@@ -11,12 +11,12 @@
         class="text-focus-in w-52 h-52 xl:w-80 xl:h-80 object-cover"
       />
       <p
-        class="scale-up-center text-amber-100 text-center text-5xl xl:text-7xl font-bold tracking-widest uppercase mb-14"
+        class="scale-up-center text-amber-100 text-center text-5xl xl:text-8xl font-bold tracking-widest uppercase mb-14"
       >
         Itt a helyed!
       </p>
       <p
-        class="scale-up-center text-white text-center text-sm xl:text-2xl font-sans tracking-wider mt-8"
+        class="scale-up-center text-white text-center text-sm xl:text-2xl font-sans tracking-wider mt-8 bg-amber-100 rounded-lg bg-opacity-50"
       >
         Nagyváradi Baptista Ifjúság
       </p>

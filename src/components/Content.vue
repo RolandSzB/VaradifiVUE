@@ -8,7 +8,7 @@
     <!-- carousel -->
     <div class="flex justify-center items-center">
       <div
-        class="carousel relative shadow-2xl bg-white w-full h-full xl:w-auto xl:h-auto"
+        class="carousel relative shadow-2xl bg-white w-full h-full xl:w-3/5 xl:h-auto"
       >
         <div class="carousel-inner relative overflow-hidden w-full h-full">
           <!--Slide 1-->
@@ -21,7 +21,7 @@
             hidden=""
             checked="checked"
           />
-          <div class="carousel-item absolute opacity-0" style="height: 50vh">
+          <div class="carousel-item absolute opacity-0 h-full">
             <div
               class="block h-full w-full bg-amber-100 text-white text-5xl text-center"
             >
@@ -52,7 +52,7 @@
             aria-hidden="true"
             hidden=""
           />
-          <div class="carousel-item absolute opacity-0" style="height: 50vh">
+          <div class="carousel-item absolute opacity-0 h-full">
             <div
               class="block h-full w-full bg-amber-100 text-white text-5xl text-center"
             >
@@ -83,7 +83,7 @@
             aria-hidden="true"
             hidden=""
           />
-          <div class="carousel-item absolute opacity-0" style="height: 50vh">
+          <div class="carousel-item absolute opacity-0 h-full">
             <div
               class="block h-full w-full bg-amber-100 text-white text-5xl text-center"
             >
