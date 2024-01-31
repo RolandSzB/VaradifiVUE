@@ -134,7 +134,7 @@
     </div>
   </div>
   <div
-    class="flex justify-start items-center bg-amber-100 py-4 xl:py-10 ps-20 xl:ps-32"
+    class="flex justify-start items-center bg-amber-100 py-4 xl:py-10 ps-10 xl:ps-32"
   >
     <i class="bi bi-instagram text-3xl xl:text-7xl me-4"></i>
     <p class="text-2xl xl:text-6xl font-sans">varadifi</p>
