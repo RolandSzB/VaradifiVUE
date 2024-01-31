@@ -16,7 +16,7 @@
         Itt a helyed!
       </p>
       <p
-        class="scale-up-center text-white text-center text-sm xl:text-2xl font-sans tracking-wider mt-8 bg-amber-100 rounded-lg bg-opacity-50"
+        class="scale-up-center text-white text-center text-sm xl:text-2xl font-sans tracking-wider mt-8"
       >
         Nagyváradi Baptista Ifjúság
       </p>
