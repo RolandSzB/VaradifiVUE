@@ -55,6 +55,9 @@
       class="w-full h-3/5 xl:w-2/5 xl:h-2/5 mt-10 xl:mt-0 object-cover xl:me-4"
     />
   </div>
+  <div class="flex bg-black justify-center items-center">
+    <p class="text-gray-700 text-xs pb-5">Made by SzBRoli</p>
+  </div>
 </template>
 <style>
 @tailwind base;
