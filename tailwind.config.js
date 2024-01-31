@@ -8,7 +8,11 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        128: "34rem",
+      },
+    },
   },
   variants: {
     extend: {},

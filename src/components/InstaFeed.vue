@@ -4,11 +4,10 @@ defineProps({
 });
 </script>
 <template>
-  <div class="p-5 w-full">
+  <div class="p-4 w-full">
     <iframe
       :src="details.link"
-      width=" 310 xl:400"
-      height="340 xl:480"
+      class="w-80 h-96 xl:w-full xl:h-128"
       frameborder="0"
       scrolling="no"
       allowtransparency="true"
