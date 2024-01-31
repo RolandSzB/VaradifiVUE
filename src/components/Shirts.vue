@@ -14,7 +14,11 @@
       >
         Rendelj Váradifis pólót
       </p>
-      <a href="order.html" target="_blank" class="block mx-auto max-w-max">
+      <a
+        href="https://forms.gle/dpkVrCkS9erXMDNv9"
+        target="_blank"
+        class="block mx-auto max-w-max"
+      >
         <button
           class="heartbeat rounded-2xl border-amber-100 bg-amber-100 py-2 px-4 my-2 mx-4 xl:mx-40 hover:text-amber-700 text-black text-center text-xl xl:text-2xl font-bold"
         >
