@@ -15,18 +15,18 @@
       </a>
     </div>
     <div class="flex items-center justify-center">
-      <a
-        href="events.html"
-        class="hover:underline me-6 hover:text-amber-700 invisible xl:visible"
+      <router-link
+        to="/events"
+        class="hover:underline me-6 hover:text-amber-700"
       >
-        <p>Események</p>
-      </a>
-      <a
-        href="about.html"
-        class="hover:underline me-6 hover:text-amber-700 invisible xl:visible"
+        Események</router-link
       >
-        <p>Rólunk</p>
-      </a>
+      <router-link
+        to="/about"
+        class="hover:underline me-6 hover:text-amber-700"
+      >
+        Rólunk</router-link
+      >
 
       <button
         data-dropdown-toggle="dropdown"
@@ -46,10 +46,20 @@
           aria-labelledby="dropdownDefaultButton"
         >
           <li>
-            <a href="#" class="block px-4 py-2 hover:bg-amber-200">Események</a>
+            <router-link
+              to="/events"
+              class="hover:underline me-6 hover:text-amber-700"
+            >
+              Események</router-link
+            >
           </li>
           <li>
-            <a href="#" class="block px-4 py-2 hover:bg-amber-200">Rólunk</a>
+            <router-link
+              to="/about"
+              class="hover:underline me-6 hover:text-amber-700"
+            >
+              Rólunk</router-link
+            >
           </li>
         </ul>
       </div>
