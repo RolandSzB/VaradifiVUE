@@ -15,12 +15,10 @@
       </a>
     </div>
     <div class="flex items-center justify-center">
-      <a href="/events" class="hover:underline me-6 hover:text-amber-700">
+      <a href="#" class="hover:underline me-6 hover:text-amber-700">
         Események</a
       >
-      <a href="/about" class="hover:underline me-6 hover:text-amber-700">
-        Rólunk</a
-      >
+      <a href="#" class="hover:underline me-6 hover:text-amber-700"> Rólunk</a>
 
       <button
         data-dropdown-toggle="dropdown"
@@ -40,12 +38,12 @@
           aria-labelledby="dropdownDefaultButton"
         >
           <li>
-            <a href="/events" class="hover:underline me-6 hover:text-amber-700">
+            <a href="#" class="hover:underline me-6 hover:text-amber-700">
               Események</a
             >
           </li>
           <li>
-            <a href="/about" class="hover:underline me-6 hover:text-amber-700">
+            <a href="#" class="hover:underline me-6 hover:text-amber-700">
               Rólunk</a
             >
           </li>
