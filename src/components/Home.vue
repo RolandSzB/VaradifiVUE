@@ -1,9 +1,20 @@
 <script></script>
 <template>
   <div class="flex relative h-screen w-full">
-    <video autoplay muted loop playsinline class="object-cover w-full h-full">
-      <source src="../images/varadifiMobile.mp4" type="video/mp4" />
+    <video
+      autoplay
+      muted
+      loop
+      playsinline
+      class="hidden xl:block object-cover w-full h-full"
+    >
+      <source src="../images/homeVideo.mp4" type="video/mp4" />
     </video>
+    <img
+      src="../images/varadifiMobileHome.png"
+      alt="Home"
+      class="xl:hidden object-cover w-full h-full"
+    />
     <div class="absolute inset-0 flex flex-col items-center justify-center">
       <img
         src="../images/varadifiHome.png"
