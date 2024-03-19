@@ -15,17 +15,11 @@
       </a>
     </div>
     <div class="flex items-center justify-center">
-      <router-link
-        to="/events"
-        class="hover:underline me-6 hover:text-amber-700"
+      <a href="/events" class="hover:underline me-6 hover:text-amber-700">
+        Események</a
       >
-        Események</router-link
-      >
-      <router-link
-        to="/about"
-        class="hover:underline me-6 hover:text-amber-700"
-      >
-        Rólunk</router-link
+      <a href="/about" class="hover:underline me-6 hover:text-amber-700">
+        Rólunk</a
       >
 
       <button
@@ -46,19 +40,13 @@
           aria-labelledby="dropdownDefaultButton"
         >
           <li>
-            <router-link
-              to="/events"
-              class="hover:underline me-6 hover:text-amber-700"
-            >
-              Események</router-link
+            <a href="/events" class="hover:underline me-6 hover:text-amber-700">
+              Események</a
             >
           </li>
           <li>
-            <router-link
-              to="/about"
-              class="hover:underline me-6 hover:text-amber-700"
-            >
-              Rólunk</router-link
+            <a href="/about" class="hover:underline me-6 hover:text-amber-700">
+              Rólunk</a
             >
           </li>
         </ul>
