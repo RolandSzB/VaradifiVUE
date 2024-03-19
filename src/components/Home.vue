@@ -2,7 +2,7 @@
 <template>
   <div class="flex relative h-screen w-full">
     <video autoplay muted loop playsinline class="object-cover w-full h-full">
-      <source src="../images/homeVideo.mp4" type="video/mp4" />
+      <source src="../images/varadifiMobile.mp4" type="video/mp4" />
     </video>
     <div class="absolute inset-0 flex flex-col items-center justify-center">
       <img
