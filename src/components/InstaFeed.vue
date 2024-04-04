@@ -7,7 +7,7 @@ defineProps({
   <div class="py-4 ps-1 pe-6 w-full">
     <iframe
       :src="details.link"
-      class="w-40 h-48 xl:w-full xl:h-128"
+      class="w-80 h-96 xl:w-full xl:h-128"
       frameborder="0"
       scrolling="no"
       allowtransparency="true"

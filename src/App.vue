@@ -21,7 +21,7 @@ import postLink from "./assets/postLink.json";
   <Groups></Groups>
   <Content></Content>
   <div
-    class="flex flex-col xl:flex-row bg-amber-100 px-32 py-12 xl:px-28 pb-60 justify-center h-full"
+    class="flex flex-col xl:flex-row bg-amber-100 px-32 xl:px-28 py-60 justify-center h-full"
   >
     <InstaFeed v-for="post in postLink" :details="post"></InstaFeed>
   </div>
