@@ -34,6 +34,7 @@
         További események
       </p>
     </a>
+    coming soon...
   </div>
 </template>
 <style>
