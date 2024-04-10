@@ -15,10 +15,12 @@
       </a>
     </div>
     <div class="flex items-center justify-center">
-      <a href="#" class="hover:underline me-6 hover:text-amber-700">
+      <a href="#" class="hover:underline me-6 hover:text-amber-700 hidden">
         Események</a
       >
-      <a href="#" class="hover:underline me-6 hover:text-amber-700"> Rólunk</a>
+      <a href="#" class="hover:underline me-6 hover:text-amber-700 hidden">
+        Rólunk</a
+      >
 
       <button
         data-dropdown-toggle="dropdown"
