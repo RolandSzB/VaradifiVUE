@@ -1,4 +1,21 @@
-<script></script>
+<script>
+export default {
+  data() {
+    return {
+      phoneNumber: "+40 (735) 500 956",
+      emailAddress: "varadifi@gmail.com",
+    };
+  },
+  computed: {
+    telLink() {
+      return `tel:${this.phoneNumber.replace(/\s+/g, "")}`;
+    },
+    mailtoLink() {
+      return `mailto:${this.emailAddress}`;
+    },
+  },
+};
+</script>
 <template>
   <div
     class="flex flex-col xl:flex-row bg-black justify-center items-center pt-8 pb-14"
@@ -9,9 +26,11 @@
       </p>
       <div class="flex text-xl xl:text-2xl font-bold mb-2">
         <p>Petyár Lóri:</p>
-        <p class="underline">+40 (735) 500 956</p>
+        <a :href="telLink" class="underline">{{ phoneNumber }}</a>
       </div>
-      <p class="flex text-xl xl:text-2xl font-bold">varadifi@gmail.com</p>
+      <a :href="mailtoLink" class="flex text-xl xl:text-2xl font-bold">{{
+        emailAddress
+      }}</a>
       <div
         class="flex my-2 xl:my-10 justify-center items-center xl:justify-start"
       >

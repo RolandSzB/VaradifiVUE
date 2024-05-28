@@ -22,15 +22,21 @@
             checked="checked"
           />
           <div class="carousel-item absolute opacity-0 h-full">
-            <div
-              class="block h-full w-full bg-amber-100 text-white text-5xl text-center"
+            <a
+              href="https://www.youtube.com/@varadifi"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <img
-                src="../images/titkosBunok.png"
-                alt="Logo"
-                class="xl:w-full xl:h-full xl:mt-0 object-cover xl:me-4"
-              />
-            </div>
+              <div
+                class="block h-full w-full bg-amber-100 text-white text-5xl text-center"
+              >
+                <img
+                  src="../images/titkosBunok.png"
+                  alt="Logo"
+                  class="xl:w-full xl:h-full xl:mt-0 object-cover xl:me-4"
+                />
+              </div>
+            </a>
           </div>
           <label
             for="carousel-3"
@@ -53,15 +59,21 @@
             hidden=""
           />
           <div class="carousel-item absolute opacity-0 h-full">
-            <div
-              class="block h-full w-full bg-amber-100 text-white text-5xl text-center"
+            <a
+              href="https://www.youtube.com/@varadifi"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <img
-                src="../images/digiTalizzAllj.png"
-                alt="Logo"
-                class="xl:w-full xl:h-full xl:mt-0 object-cover xl:me-4"
-              />
-            </div>
+              <div
+                class="block h-full w-full bg-amber-100 text-white text-5xl text-center"
+              >
+                <img
+                  src="../images/digiTalizzAllj.png"
+                  alt="Logo"
+                  class="xl:w-full xl:h-full xl:mt-0 object-cover xl:me-4"
+                />
+              </div>
+            </a>
           </div>
           <label
             for="carousel-1"
@@ -84,15 +96,21 @@
             hidden=""
           />
           <div class="carousel-item absolute opacity-0 h-full">
-            <div
-              class="block h-full w-full bg-amber-100 text-white text-5xl text-center"
+            <a
+              href="https://www.youtube.com/@varadifi"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <img
-                src="../images/istenHarcosai.png"
-                alt="Logo"
-                class="xl:w-full xl:h-full xl:mt-0 object-cover xl:me-4"
-              />
-            </div>
+              <div
+                class="block h-full w-full bg-amber-100 text-white text-5xl text-center"
+              >
+                <img
+                  src="../images/istenHarcosai.png"
+                  alt="Logo"
+                  class="xl:w-full xl:h-full xl:mt-0 object-cover xl:me-4"
+                />
+              </div>
+            </a>
           </div>
           <label
             for="carousel-2"

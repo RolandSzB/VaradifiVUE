@@ -4,7 +4,7 @@ defineProps({
 });
 </script>
 <template>
-  <div class="flex justify-center py-4 ps-1 pe-6 w-full">
+  <div class="flex justify-center py-4 px-3 w-full">
     <iframe
       :src="details.link"
       class="w-4/5 h-96 xl:w-full xl:h-128"
