@@ -4,7 +4,7 @@
       <img src="../images/tabor.png" class="hidden xl:block w-full h-full" />
       <img
         src="../images/taborAndroid.png"
-        class="w-screen h-screen xl:hidden object-cover"
+        class="w-screen h-screen xl:hidden"
       />
       <div class="absolute bottom-0 left-28 xl:top-0 xl:left-0 mt-4 ml-4 z-10">
         <button
