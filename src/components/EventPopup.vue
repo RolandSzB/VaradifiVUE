@@ -1,12 +1,12 @@
 <template>
   <div class="popup-overlay" v-if="visible">
-    <div class="flex relative h-screen w-full">
+    <div class="flex h-9/12 w-full">
       <img src="../images/tabor.png" class="hidden xl:block w-full h-full" />
       <img
         src="../images/taborAndroid.png"
-        class="w-full h-full xl:hidden object-cover"
+        class="w-screen h-screen xl:hidden object-cover"
       />
-      <div class="absolute bottom-0 left-32 xl:top-0 xl:left-0 mt-4 ml-4 z-10">
+      <div class="absolute bottom-0 left-28 xl:top-0 xl:left-0 mt-4 ml-4 z-10">
         <button
           @click="closePopup"
           class="heartbeat rounded-full border-4 border-dashed border-white bg-amber-500 py-2 px-4 my-2 hover:bg-amber-700 hover:text-white text-black text-center text-xl xl:text-2xl font-bold"
@@ -22,7 +22,8 @@
             class="flex mx-auto max-w-max"
           >
             <button
-              class="heartbeat rounded-full border-4 border-dashed border-white bg-amber-500 py-8 px-20 my-10 xl:my-2 mx-16 xl:mx-40 hover:bg-amber-700 hover:text-white text-black text-center text-xl xl:text-4xl font-bold"
+              @click="closePopup"
+              class="heartbeat rounded-full border-4 border-dashed border-white bg-amber-500 py-6 px-14 my-10 xl:my-2 mx-16 xl:mx-40 hover:bg-amber-700 hover:text-white text-black text-center text-xl xl:text-4xl font-bold"
             >
               Jelentkezz
             </button>
