@@ -2,7 +2,7 @@
   <div class="popup-overlay" v-if="visible">
     <div class="flex h-9/12 w-full">
       <img src="../images/tabor.png" class="hidden xl:block w-full h-full" />
-      <img src="../images/taborAndroid.png" class="w-screen h-9/12 xl:hidden" />
+      <img src="../images/taborAndroid.png" class="w-screen h-5/6 xl:hidden" />
       <div class="absolute bottom-0 left-28 xl:top-0 xl:left-0 mt-4 ml-4 z-10">
         <button
           @click="closePopup"
